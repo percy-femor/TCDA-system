@@ -1,0 +1,48 @@
+{
+  "id": "/field",
+  "name": "TCDA Field",
+  "short_name": "TCDA Field",
+  "description": "Officer app for Ghana palm and cashew enrolment, farm geofences, and store-and-forward sync.",
+  "start_url": "/field?source=homescreen",
+  "scope": "/field",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#2b2b2b",
+  "theme_color": "#2b2b2b",
+  "lang": "en-GH",
+  "dir": "ltr",
+  "categories": ["productivity", "government"],
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "/field-manifest.json"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/field-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/field-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/field-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/field-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
